@@ -17,6 +17,7 @@ require_relative '../models/address_book'
        expect(book.entries.size).to eq(0)
      end
    end
+<<<<<<< HEAD
 
   context "#remove_entry" do
     it "removes an entry using the name, phone_number, and email address" do
@@ -34,6 +35,8 @@ require_relative '../models/address_book'
       expect(book.entries.first.name).to eq ("Michael Faraday")
     end
   end
+=======
+>>>>>>> origin
  
  describe "#add_entry" do
      it "adds only one entry to the address book" do
